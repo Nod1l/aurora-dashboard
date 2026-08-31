@@ -163,6 +163,7 @@ h1 .sub { color: var(--muted); font-weight: 400; font-size: 16px; margin-left: 8
 .status-card .val.signal { color: var(--accent); }
 .status-card .val.exec { font-size: 16px; }
 .status-card .exec-note { font-size: 11px; color: var(--muted); margin-top: 5px; line-height: 1.35; }
+#kpi-note.exec-note { font-size: 11px; color: var(--muted); line-height: 1.35; }
 .status-card .open-trade { font-family: var(--mono); font-size: 13px; color: var(--text); }
 .status-card .open-trade .none { color: var(--muted); font-style: italic; font-family: var(--sans); }
 
@@ -432,98 +433,196 @@ footer {
         "strategy": "Aurora",
         "as_of": "2026-08-28",
         "since": "2011-01-01",
-        "total_return_pct": 6529.842128534286,
-        "cagr_pct": 30.73542674613714,
-        "sharpe": 1.5386722875807397,
-        "max_dd_pct": -18.15024731171277,
-        "calmar": 1.6933888678366857,
+        "total_return_pct": 6529.826189906928,
+        "cagr_pct": 30.73540666263199,
+        "sharpe": 1.538671802786577,
+        "max_dd_pct": -18.150247311712732,
+        "calmar": 1.6933877613225576,
         "benchmark": {
           "name": "SPY",
-          "total_return_pct": 704.0036159346679,
-          "cagr_pct": 14.247210827698598,
-          "sharpe": 0.8532250550485766,
-          "max_dd_pct": -33.71726435356454
+          "total_return_pct": 704.0036159346644,
+          "cagr_pct": 14.247210827698575,
+          "sharpe": 0.8532252846135696,
+          "max_dd_pct": -33.7172758601377
         },
         "yearly": {
           "2011": {
-            "strategy_pct": 44.02625737236323,
-            "benchmark_pct": 1.8949931041145396,
-            "max_dd_pct": -11.354170138412051
+            "strategy_pct": 44.02616188844164,
+            "benchmark_pct": 1.8949612119408155,
+            "max_dd_pct": -11.354186929469764
           },
           "2012": {
-            "strategy_pct": 19.972186238540466,
-            "benchmark_pct": 15.990352691096898,
-            "max_dd_pct": -10.724478225603049
+            "strategy_pct": 19.97213514184748,
+            "benchmark_pct": 15.99035769592858,
+            "max_dd_pct": -10.72451348710141
           },
           "2013": {
-            "strategy_pct": 32.37574001352621,
-            "benchmark_pct": 32.30775416376226,
-            "max_dd_pct": -4.932583097269869
+            "strategy_pct": 32.37589099610343,
+            "benchmark_pct": 32.30777637385025,
+            "max_dd_pct": -4.932649081377521
           },
           "2014": {
-            "strategy_pct": 18.080238579382126,
-            "benchmark_pct": 13.463771716106155,
-            "max_dd_pct": -6.266293925814898
+            "strategy_pct": 18.080079264829084,
+            "benchmark_pct": 13.46379348409692,
+            "max_dd_pct": -6.266143980651526
           },
           "2015": {
-            "strategy_pct": 13.765856987600955,
-            "benchmark_pct": 1.2343016061665102,
-            "max_dd_pct": -6.988454690211289
+            "strategy_pct": 13.765560352866245,
+            "benchmark_pct": 1.2343194701497806,
+            "max_dd_pct": -6.988564504581578
           },
           "2016": {
-            "strategy_pct": 42.75315082129818,
-            "benchmark_pct": 11.997893812047389,
-            "max_dd_pct": -8.130376405614228
+            "strategy_pct": 42.75340130882408,
+            "benchmark_pct": 11.997890616572771,
+            "max_dd_pct": -8.130331662690457
           },
           "2017": {
-            "strategy_pct": 19.888200785435608,
-            "benchmark_pct": 21.705434529208635,
-            "max_dd_pct": -4.178713122270026
+            "strategy_pct": 19.888113209402448,
+            "benchmark_pct": 21.70538180660584,
+            "max_dd_pct": -4.178751021161538
           },
           "2018": {
-            "strategy_pct": 17.692271052962116,
-            "benchmark_pct": -4.569021990522748,
-            "max_dd_pct": -10.222457349572679
+            "strategy_pct": 17.692310613940876,
+            "benchmark_pct": -4.569009857029749,
+            "max_dd_pct": -10.222406472181502
           },
           "2019": {
-            "strategy_pct": 8.951846455107603,
-            "benchmark_pct": 31.223870646836758,
-            "max_dd_pct": -10.793473310656447
+            "strategy_pct": 8.951991556438665,
+            "benchmark_pct": 31.223865952894148,
+            "max_dd_pct": -10.793437818054086
           },
           "2020": {
-            "strategy_pct": 72.31832981452607,
-            "benchmark_pct": 18.331634512154583,
-            "max_dd_pct": -15.727699581322174
+            "strategy_pct": 72.31845865151807,
+            "benchmark_pct": 18.331626017004155,
+            "max_dd_pct": -15.727723231392579
           },
           "2021": {
-            "strategy_pct": 29.070330816419343,
-            "benchmark_pct": 28.72875564595376,
-            "max_dd_pct": -9.615097781735239
+            "strategy_pct": 29.070143102455546,
+            "benchmark_pct": 28.728769487345307,
+            "max_dd_pct": -9.615090214460652
           },
           "2022": {
-            "strategy_pct": 32.186425851935184,
-            "benchmark_pct": -18.17536688271676,
-            "max_dd_pct": -13.674526258803462
+            "strategy_pct": 32.18647824441876,
+            "benchmark_pct": -18.17536812386572,
+            "max_dd_pct": -13.674526258803477
           },
           "2023": {
-            "strategy_pct": 56.71366213993583,
-            "benchmark_pct": 26.175777831244986,
-            "max_dd_pct": -7.432969873231543
+            "strategy_pct": 56.71366578051904,
+            "benchmark_pct": 26.175796706932818,
+            "max_dd_pct": -7.432989110883511
           },
           "2024": {
-            "strategy_pct": 15.722813507670551,
-            "benchmark_pct": 24.886463075613662,
-            "max_dd_pct": -10.173382255219252
+            "strategy_pct": 15.722721390262805,
+            "benchmark_pct": 24.88644158680884,
+            "max_dd_pct": -10.17335776820217
           },
           "2025": {
-            "strategy_pct": 50.06597418609016,
-            "benchmark_pct": 17.719067981214522,
-            "max_dd_pct": -8.187948397218262
+            "strategy_pct": 50.06597273160405,
+            "benchmark_pct": 17.719080450516888,
+            "max_dd_pct": -8.18796932500957
           },
           "2026": {
-            "strategy_pct": 22.88131622327565,
-            "benchmark_pct": 13.42071101344413,
+            "strategy_pct": 22.881304123104606,
+            "benchmark_pct": 13.420711013444109,
             "max_dd_pct": -18.150247311712764
+          }
+        },
+        "range_kpis": {
+          "all": {
+            "from": "2011-01-03",
+            "to": "2026-08-28",
+            "total_return_pct": 6529.826189906928,
+            "cagr_pct": 30.73540666263199,
+            "sharpe": 1.538671802786577,
+            "max_dd_pct": -18.150247311712732,
+            "calmar": 1.6933877613225576,
+            "n_days": 5716,
+            "benchmark": {
+              "total_return_pct": 704.0036159346644,
+              "cagr_pct": 14.247210827698575,
+              "sharpe": 0.8532252846135696,
+              "max_dd_pct": -33.7172758601377
+            }
+          },
+          "ytd": {
+            "from": "2026-01-01",
+            "to": "2026-08-28",
+            "total_return_pct": 22.881304123104606,
+            "cagr_pct": 37.01118946757893,
+            "sharpe": 1.31530052157683,
+            "max_dd_pct": -18.150247311712764,
+            "calmar": 2.0391562071826304,
+            "n_days": 239,
+            "benchmark": {
+              "total_return_pct": 13.420711013444109,
+              "cagr_pct": 21.22249183269984,
+              "sharpe": 1.462756215598131,
+              "max_dd_pct": -8.884968175523786
+            }
+          },
+          "1y": {
+            "from": "2025-08-28",
+            "to": "2026-08-28",
+            "total_return_pct": 36.2787132911065,
+            "cagr_pct": 36.30760855807444,
+            "sharpe": 1.4357382076839333,
+            "max_dd_pct": -18.150247311712715,
+            "calmar": 2.0003919469815945,
+            "n_days": 365,
+            "benchmark": {
+              "total_return_pct": 20.2967012537548,
+              "cagr_pct": 20.31192807324802,
+              "sharpe": 1.4801351245002492,
+              "max_dd_pct": -8.884968175523738
+            }
+          },
+          "3y": {
+            "from": "2023-08-28",
+            "to": "2026-08-28",
+            "total_return_pct": 145.8777791109916,
+            "cagr_pct": 34.961548514400896,
+            "sharpe": 1.6116908894367574,
+            "max_dd_pct": -18.150247311712768,
+            "calmar": 1.926229869707583,
+            "n_days": 1096,
+            "benchmark": {
+              "total_return_pct": 81.50764745841244,
+              "cagr_pct": 21.977190057754004,
+              "sharpe": 1.3497923107650456,
+              "max_dd_pct": -18.755234489427295
+            }
+          },
+          "5y": {
+            "from": "2021-08-30",
+            "to": "2026-08-28",
+            "total_return_pct": 365.58204437251726,
+            "cagr_pct": 36.070520572316724,
+            "sharpe": 1.5248283195491552,
+            "max_dd_pct": -18.15024731171274,
+            "calmar": 1.987329426031548,
+            "n_days": 1824,
+            "benchmark": {
+              "total_return_pct": 82.82269888157825,
+              "cagr_pct": 12.841972409461878,
+              "sharpe": 0.7752012314871511,
+              "max_dd_pct": -24.496400650373275
+            }
+          },
+          "10y": {
+            "from": "2016-08-29",
+            "to": "2026-08-28",
+            "total_return_pct": 1468.3061490961682,
+            "cagr_pct": 31.701947914558403,
+            "sharpe": 1.4794636222331448,
+            "max_dd_pct": -18.15024731171277,
+            "calmar": 1.7466399972467817,
+            "n_days": 3651,
+            "benchmark": {
+              "total_return_pct": 315.66154908990615,
+              "cagr_pct": 15.31861183989216,
+              "sharpe": 0.8688226293413439,
+              "max_dd_pct": -33.717275860137676
+            }
           }
         }
       },
@@ -570,7 +669,7 @@ footer {
         },
         {
           "date": "2011-09-30",
-          "strategy": 1.34361,
+          "strategy": 1.3436,
           "benchmark": 0.91289
         },
         {
@@ -615,7 +714,7 @@ footer {
         },
         {
           "date": "2012-06-29",
-          "strategy": 1.7053,
+          "strategy": 1.70529,
           "benchmark": 1.11561
         },
         {
@@ -636,7 +735,7 @@ footer {
         {
           "date": "2012-10-31",
           "strategy": 1.70319,
-          "benchmark": 1.16483
+          "benchmark": 1.16482
         },
         {
           "date": "2012-11-30",
@@ -711,21 +810,21 @@ footer {
         {
           "date": "2014-01-31",
           "strategy": 2.26443,
-          "benchmark": 1.50861
+          "benchmark": 1.5086
         },
         {
           "date": "2014-02-28",
-          "strategy": 2.27994,
+          "strategy": 2.27995,
           "benchmark": 1.57727
         },
         {
           "date": "2014-03-31",
           "strategy": 2.21762,
-          "benchmark": 1.59035
+          "benchmark": 1.59036
         },
         {
           "date": "2014-04-30",
-          "strategy": 2.30777,
+          "strategy": 2.30778,
           "benchmark": 1.60141
         },
         {
@@ -735,7 +834,7 @@ footer {
         },
         {
           "date": "2014-06-30",
-          "strategy": 2.48439,
+          "strategy": 2.4844,
           "benchmark": 1.6724
         },
         {
@@ -745,7 +844,7 @@ footer {
         },
         {
           "date": "2014-08-29",
-          "strategy": 2.59555,
+          "strategy": 2.59556,
           "benchmark": 1.71504
         },
         {
@@ -765,12 +864,12 @@ footer {
         },
         {
           "date": "2014-12-31",
-          "strategy": 2.7009,
+          "strategy": 2.70089,
           "benchmark": 1.77426
         },
         {
           "date": "2015-01-30",
-          "strategy": 2.7943,
+          "strategy": 2.79429,
           "benchmark": 1.72169
         },
         {
@@ -780,12 +879,12 @@ footer {
         },
         {
           "date": "2015-03-31",
-          "strategy": 2.98175,
+          "strategy": 2.98174,
           "benchmark": 1.7899
         },
         {
           "date": "2015-04-30",
-          "strategy": 3.01849,
+          "strategy": 3.01848,
           "benchmark": 1.8075
         },
         {
@@ -795,7 +894,7 @@ footer {
         },
         {
           "date": "2015-06-30",
-          "strategy": 3.00969,
+          "strategy": 3.00968,
           "benchmark": 1.79355
         },
         {
@@ -805,17 +904,17 @@ footer {
         },
         {
           "date": "2015-08-31",
-          "strategy": 3.01089,
+          "strategy": 3.01088,
           "benchmark": 1.72228
         },
         {
           "date": "2015-09-30",
-          "strategy": 2.98226,
+          "strategy": 2.98225,
           "benchmark": 1.67833
         },
         {
           "date": "2015-10-30",
-          "strategy": 2.9741,
+          "strategy": 2.97409,
           "benchmark": 1.82109
         },
         {
@@ -825,52 +924,52 @@ footer {
         },
         {
           "date": "2015-12-31",
-          "strategy": 3.0727,
+          "strategy": 3.07269,
           "benchmark": 1.79616
         },
         {
           "date": "2016-01-29",
-          "strategy": 3.16582,
-          "benchmark": 1.70673
+          "strategy": 3.16581,
+          "benchmark": 1.70674
         },
         {
           "date": "2016-02-29",
-          "strategy": 3.52703,
+          "strategy": 3.52702,
           "benchmark": 1.70532
         },
         {
           "date": "2016-03-31",
-          "strategy": 3.76872,
+          "strategy": 3.76871,
           "benchmark": 1.82004
         },
         {
           "date": "2016-04-29",
-          "strategy": 3.64862,
+          "strategy": 3.64861,
           "benchmark": 1.82721
         },
         {
           "date": "2016-05-31",
-          "strategy": 3.55812,
+          "strategy": 3.55811,
           "benchmark": 1.85829
         },
         {
           "date": "2016-06-30",
-          "strategy": 3.8024,
+          "strategy": 3.80239,
           "benchmark": 1.86475
         },
         {
           "date": "2016-07-29",
-          "strategy": 4.16821,
+          "strategy": 4.1682,
           "benchmark": 1.93276
         },
         {
           "date": "2016-08-31",
-          "strategy": 4.21508,
+          "strategy": 4.21507,
           "benchmark": 1.93508
         },
         {
           "date": "2016-09-30",
-          "strategy": 4.30953,
+          "strategy": 4.30952,
           "benchmark": 1.93519
         },
         {
@@ -880,152 +979,152 @@ footer {
         },
         {
           "date": "2016-11-30",
-          "strategy": 4.48003,
+          "strategy": 4.48002,
           "benchmark": 1.97169
         },
         {
           "date": "2016-12-30",
-          "strategy": 4.38637,
+          "strategy": 4.38636,
           "benchmark": 2.01166
         },
         {
           "date": "2017-01-31",
-          "strategy": 4.38743,
+          "strategy": 4.38742,
           "benchmark": 2.04766
         },
         {
           "date": "2017-02-28",
-          "strategy": 4.37663,
+          "strategy": 4.37662,
           "benchmark": 2.12811
         },
         {
           "date": "2017-03-31",
-          "strategy": 4.35642,
+          "strategy": 4.35641,
           "benchmark": 2.13077
         },
         {
           "date": "2017-04-28",
-          "strategy": 4.47522,
+          "strategy": 4.47521,
           "benchmark": 2.15193
         },
         {
           "date": "2017-05-31",
-          "strategy": 4.51371,
-          "benchmark": 2.18229
+          "strategy": 4.5137,
+          "benchmark": 2.1823
         },
         {
           "date": "2017-06-30",
-          "strategy": 4.45028,
+          "strategy": 4.45027,
           "benchmark": 2.19621
         },
         {
           "date": "2017-07-31",
-          "strategy": 4.66526,
+          "strategy": 4.66525,
           "benchmark": 2.24135
         },
         {
           "date": "2017-08-31",
-          "strategy": 4.91492,
+          "strategy": 4.91491,
           "benchmark": 2.24789
         },
         {
           "date": "2017-09-29",
-          "strategy": 4.90041,
+          "strategy": 4.9004,
           "benchmark": 2.29318
         },
         {
           "date": "2017-10-31",
-          "strategy": 5.12614,
+          "strategy": 5.12613,
           "benchmark": 2.34722
         },
         {
           "date": "2017-11-30",
-          "strategy": 5.22722,
+          "strategy": 5.2272,
           "benchmark": 2.41896
         },
         {
           "date": "2017-12-29",
-          "strategy": 5.25874,
+          "strategy": 5.25873,
           "benchmark": 2.4483
         },
         {
           "date": "2018-01-31",
-          "strategy": 5.71926,
-          "benchmark": 2.58629
+          "strategy": 5.71924,
+          "benchmark": 2.58628
         },
         {
           "date": "2018-02-28",
-          "strategy": 5.60871,
+          "strategy": 5.60869,
           "benchmark": 2.49225
         },
         {
           "date": "2018-03-30",
-          "strategy": 5.52665,
+          "strategy": 5.52663,
           "benchmark": 2.42393
         },
         {
           "date": "2018-04-30",
-          "strategy": 5.61128,
+          "strategy": 5.61126,
           "benchmark": 2.43646
         },
         {
           "date": "2018-05-31",
-          "strategy": 5.9296,
+          "strategy": 5.92958,
           "benchmark": 2.49569
         },
         {
           "date": "2018-06-29",
-          "strategy": 5.86591,
+          "strategy": 5.86589,
           "benchmark": 2.51004
         },
         {
           "date": "2018-07-31",
-          "strategy": 6.02994,
+          "strategy": 6.02993,
           "benchmark": 2.60303
         },
         {
           "date": "2018-08-31",
-          "strategy": 6.26382,
+          "strategy": 6.26381,
           "benchmark": 2.68612
         },
         {
           "date": "2018-09-28",
-          "strategy": 6.28603,
+          "strategy": 6.28601,
           "benchmark": 2.70209
         },
         {
           "date": "2018-10-31",
-          "strategy": 6.41028,
+          "strategy": 6.41026,
           "benchmark": 2.51536
         },
         {
           "date": "2018-11-30",
-          "strategy": 6.68659,
+          "strategy": 6.68658,
           "benchmark": 2.56202
         },
         {
           "date": "2018-12-31",
-          "strategy": 6.18913,
+          "strategy": 6.18912,
           "benchmark": 2.33644
         },
         {
           "date": "2019-01-31",
-          "strategy": 6.24634,
+          "strategy": 6.24633,
           "benchmark": 2.52351
         },
         {
           "date": "2019-02-28",
-          "strategy": 6.2948,
+          "strategy": 6.29479,
           "benchmark": 2.60531
         },
         {
           "date": "2019-03-29",
-          "strategy": 6.76622,
+          "strategy": 6.76621,
           "benchmark": 2.65246
         },
         {
           "date": "2019-04-30",
-          "strategy": 6.66006,
+          "strategy": 6.66004,
           "benchmark": 2.76082
         },
         {
@@ -1035,12 +1134,12 @@ footer {
         },
         {
           "date": "2019-06-28",
-          "strategy": 6.75924,
+          "strategy": 6.75923,
           "benchmark": 2.76463
         },
         {
           "date": "2019-07-31",
-          "strategy": 6.91706,
+          "strategy": 6.91704,
           "benchmark": 2.80643
         },
         {
@@ -1055,57 +1154,57 @@ footer {
         },
         {
           "date": "2019-10-31",
-          "strategy": 6.55282,
-          "benchmark": 2.87532
+          "strategy": 6.55281,
+          "benchmark": 2.87531
         },
         {
           "date": "2019-11-29",
-          "strategy": 6.49092,
-          "benchmark": 2.9794
+          "strategy": 6.49091,
+          "benchmark": 2.97939
         },
         {
           "date": "2019-12-31",
-          "strategy": 6.74318,
+          "strategy": 6.74317,
           "benchmark": 3.06596
         },
         {
           "date": "2020-01-31",
-          "strategy": 6.94806,
-          "benchmark": 3.06472
+          "strategy": 6.94805,
+          "benchmark": 3.06473
         },
         {
           "date": "2020-02-28",
-          "strategy": 7.68307,
+          "strategy": 7.68305,
           "benchmark": 2.8221
         },
         {
           "date": "2020-03-31",
-          "strategy": 7.60979,
+          "strategy": 7.60977,
           "benchmark": 2.4697
         },
         {
           "date": "2020-04-30",
-          "strategy": 8.36982,
+          "strategy": 8.36981,
           "benchmark": 2.78332
         },
         {
           "date": "2020-05-29",
-          "strategy": 8.92231,
+          "strategy": 8.92229,
           "benchmark": 2.91593
         },
         {
           "date": "2020-06-30",
-          "strategy": 9.00008,
+          "strategy": 9.00007,
           "benchmark": 2.96764
         },
         {
           "date": "2020-07-31",
-          "strategy": 9.66127,
+          "strategy": 9.66126,
           "benchmark": 3.14241
         },
         {
           "date": "2020-08-31",
-          "strategy": 10.71867,
+          "strategy": 10.71866,
           "benchmark": 3.36174
         },
         {
@@ -1120,355 +1219,356 @@ footer {
         },
         {
           "date": "2020-11-30",
-          "strategy": 11.0767,
-          "benchmark": 3.4984
+          "strategy": 11.07669,
+          "benchmark": 3.49839
         },
         {
           "date": "2020-12-31",
-          "strategy": 11.61973,
+          "strategy": 11.61972,
           "benchmark": 3.628
         },
         {
           "date": "2021-01-29",
-          "strategy": 11.6501,
+          "strategy": 11.65009,
           "benchmark": 3.59103
         },
         {
           "date": "2021-02-26",
-          "strategy": 11.57641,
+          "strategy": 11.57639,
           "benchmark": 3.69088
         },
         {
           "date": "2021-03-31",
-          "strategy": 11.85796,
+          "strategy": 11.85794,
           "benchmark": 3.85845
         },
         {
           "date": "2021-04-30",
-          "strategy": 12.55874,
+          "strategy": 12.55872,
           "benchmark": 4.0626
         },
         {
           "date": "2021-05-31",
-          "strategy": 12.66404,
+          "strategy": 12.66402,
           "benchmark": 4.08927
         },
         {
           "date": "2021-06-30",
-          "strategy": 13.65136,
+          "strategy": 13.65134,
           "benchmark": 4.18099
         },
         {
           "date": "2021-07-30",
-          "strategy": 13.80554,
-          "benchmark": 4.28305
+          "strategy": 13.80552,
+          "benchmark": 4.28306
         },
         {
           "date": "2021-08-31",
-          "strategy": 14.38796,
+          "strategy": 14.38793,
           "benchmark": 4.41052
         },
         {
           "date": "2021-09-30",
-          "strategy": 13.57026,
+          "strategy": 13.57024,
           "benchmark": 4.20496
         },
         {
           "date": "2021-10-29",
-          "strategy": 14.84466,
+          "strategy": 14.84464,
           "benchmark": 4.5
         },
         {
           "date": "2021-11-30",
-          "strategy": 15.14109,
+          "strategy": 15.14107,
           "benchmark": 4.46384
         },
         {
           "date": "2021-12-31",
-          "strategy": 14.99762,
-          "benchmark": 4.67029
+          "strategy": 14.99759,
+          "benchmark": 4.67028
         },
         {
           "date": "2022-01-31",
-          "strategy": 14.65123,
+          "strategy": 14.65121,
           "benchmark": 4.42397
         },
         {
           "date": "2022-02-28",
-          "strategy": 14.56693,
+          "strategy": 14.56691,
           "benchmark": 4.29339
         },
         {
           "date": "2022-03-31",
-          "strategy": 15.40973,
+          "strategy": 15.40971,
           "benchmark": 4.45478
         },
         {
           "date": "2022-04-29",
-          "strategy": 16.27897,
+          "strategy": 16.27895,
           "benchmark": 4.06378
         },
         {
           "date": "2022-05-31",
-          "strategy": 17.39425,
+          "strategy": 17.39423,
           "benchmark": 4.07296
         },
         {
           "date": "2022-06-30",
-          "strategy": 15.84479,
+          "strategy": 15.84477,
           "benchmark": 3.7371
         },
         {
           "date": "2022-07-29",
-          "strategy": 17.83359,
+          "strategy": 17.83356,
           "benchmark": 4.08124
         },
         {
           "date": "2022-08-31",
-          "strategy": 18.96994,
+          "strategy": 18.96991,
           "benchmark": 3.91472
         },
         {
           "date": "2022-09-30",
-          "strategy": 18.0274,
+          "strategy": 18.02737,
           "benchmark": 3.55282
         },
         {
           "date": "2022-10-31",
-          "strategy": 19.11195,
+          "strategy": 19.11192,
           "benchmark": 3.84157
         },
         {
           "date": "2022-11-30",
-          "strategy": 21.78879,
+          "strategy": 21.78875,
           "benchmark": 4.05513
         },
         {
           "date": "2022-12-30",
-          "strategy": 19.82482,
+          "strategy": 19.82479,
           "benchmark": 3.82144
         },
         {
           "date": "2023-01-31",
-          "strategy": 20.58651,
+          "strategy": 20.58648,
           "benchmark": 4.06176
         },
         {
           "date": "2023-02-28",
-          "strategy": 20.51244,
+          "strategy": 20.51241,
           "benchmark": 3.95964
         },
         {
           "date": "2023-03-31",
-          "strategy": 23.94429,
-          "benchmark": 4.10646
+          "strategy": 23.94426,
+          "benchmark": 4.10645
         },
         {
           "date": "2023-04-28",
-          "strategy": 24.0659,
+          "strategy": 24.06586,
           "benchmark": 4.17206
         },
         {
           "date": "2023-05-31",
-          "strategy": 25.96321,
+          "strategy": 25.96317,
           "benchmark": 4.19131
         },
         {
           "date": "2023-06-30",
-          "strategy": 27.36395,
+          "strategy": 27.3639,
           "benchmark": 4.46291
         },
         {
           "date": "2023-07-31",
-          "strategy": 28.42022,
+          "strategy": 28.42018,
           "benchmark": 4.609
         },
         {
           "date": "2023-08-31",
-          "strategy": 27.99875,
+          "strategy": 27.9987,
           "benchmark": 4.53409
         },
         {
           "date": "2023-09-29",
-          "strategy": 27.7694,
+          "strategy": 27.76935,
           "benchmark": 4.31902
         },
         {
           "date": "2023-10-31",
-          "strategy": 27.19583,
+          "strategy": 27.19578,
           "benchmark": 4.22526
         },
         {
           "date": "2023-11-30",
-          "strategy": 30.1381,
+          "strategy": 30.13805,
           "benchmark": 4.61121
         },
         {
           "date": "2023-12-29",
-          "strategy": 31.0682,
+          "strategy": 31.06816,
           "benchmark": 4.82174
         },
         {
           "date": "2024-01-31",
-          "strategy": 31.6334,
+          "strategy": 31.63335,
           "benchmark": 4.89853
         },
         {
           "date": "2024-02-29",
-          "strategy": 32.92897,
+          "strategy": 32.92892,
           "benchmark": 5.15417
         },
         {
           "date": "2024-03-29",
-          "strategy": 34.19128,
+          "strategy": 34.19123,
           "benchmark": 5.32272
         },
         {
           "date": "2024-04-30",
-          "strategy": 33.83,
+          "strategy": 33.82994,
           "benchmark": 5.10811
         },
         {
           "date": "2024-05-31",
-          "strategy": 34.27011,
+          "strategy": 34.27004,
           "benchmark": 5.36648
         },
         {
           "date": "2024-06-28",
-          "strategy": 33.40371,
+          "strategy": 33.40364,
           "benchmark": 5.55581
         },
         {
           "date": "2024-07-31",
-          "strategy": 33.43736,
+          "strategy": 33.43728,
           "benchmark": 5.62308
         },
         {
           "date": "2024-08-30",
-          "strategy": 36.14656,
+          "strategy": 36.14648,
           "benchmark": 5.75447
         },
         {
           "date": "2024-09-30",
-          "strategy": 37.25608,
+          "strategy": 37.25599,
           "benchmark": 5.87534
         },
         {
           "date": "2024-10-31",
-          "strategy": 38.23257,
+          "strategy": 38.23248,
           "benchmark": 5.82291
         },
         {
           "date": "2024-11-29",
-          "strategy": 36.71462,
+          "strategy": 36.71454,
           "benchmark": 6.17015
         },
         {
           "date": "2024-12-31",
-          "strategy": 35.953,
+          "strategy": 35.95291,
           "benchmark": 6.0217
         },
         {
           "date": "2025-01-31",
-          "strategy": 36.7308,
+          "strategy": 36.73072,
           "benchmark": 6.18342
         },
         {
           "date": "2025-02-28",
-          "strategy": 35.7378,
+          "strategy": 35.73771,
           "benchmark": 6.10492
         },
         {
           "date": "2025-03-31",
-          "strategy": 37.72963,
+          "strategy": 37.72954,
           "benchmark": 5.76476
         },
         {
           "date": "2025-04-30",
-          "strategy": 39.77625,
+          "strategy": 39.77616,
           "benchmark": 5.71478
         },
         {
           "date": "2025-05-30",
-          "strategy": 44.54461,
+          "strategy": 44.54451,
           "benchmark": 6.07392
         },
         {
           "date": "2025-06-30",
-          "strategy": 47.38916,
+          "strategy": 47.38903,
           "benchmark": 6.38604
         },
         {
           "date": "2025-07-31",
-          "strategy": 47.13231,
+          "strategy": 47.13219,
           "benchmark": 6.53312
         },
         {
           "date": "2025-08-29",
-          "strategy": 49.48302,
+          "strategy": 49.48289,
           "benchmark": 6.66717
         },
         {
           "date": "2025-09-30",
-          "strategy": 52.14333,
+          "strategy": 52.1432,
           "benchmark": 6.90466
         },
         {
           "date": "2025-10-31",
-          "strategy": 55.17846,
+          "strategy": 55.17834,
           "benchmark": 7.06925
         },
         {
           "date": "2025-11-28",
-          "strategy": 54.31711,
+          "strategy": 54.31697,
           "benchmark": 7.08304
         },
         {
           "date": "2025-12-31",
-          "strategy": 53.95322,
+          "strategy": 53.95309,
           "benchmark": 7.08868
         },
         {
           "date": "2026-01-30",
-          "strategy": 64.61681,
+          "strategy": 64.61665,
           "benchmark": 7.19316
         },
         {
           "date": "2026-02-27",
-          "strategy": 70.25144,
+          "strategy": 70.25128,
           "benchmark": 7.13099
         },
         {
           "date": "2026-03-31",
-          "strategy": 73.89523,
+          "strategy": 73.89505,
           "benchmark": 6.77887
         },
         {
           "date": "2026-04-30",
-          "strategy": 76.28648,
+          "strategy": 76.28629,
           "benchmark": 7.49101
         },
         {
           "date": "2026-05-29",
-          "strategy": 72.31271,
+          "strategy": 72.31254,
           "benchmark": 7.88523
         },
         {
           "date": "2026-06-30",
-          "strategy": 70.80432,
+          "strategy": 70.80415,
           "benchmark": 7.80407
         },
         {
           "date": "2026-07-31",
-          "strategy": 66.14973,
+          "strategy": 66.14957,
           "benchmark": 7.80678
         },
         {
           "date": "2026-08-28",
-          "strategy": 66.29842,
+          "strategy": 66.29826,
           "benchmark": 8.04004
         }
       ],
+      "equity_periods_per_year": 12,
       "current": {
         "as_of": "2026-08-28",
         "holding": "QQQ",
@@ -1476,7 +1576,7 @@ footer {
           "QQQ"
         ],
         "entry_date": "2026-08-05",
-        "return_pct": -0.12128748529114386
+        "return_pct": -0.12128748529116606
       },
       "latest_closed": {
         "asset": "DBC",
@@ -1490,100 +1590,198 @@ footer {
       "label": "Borea",
       "kpis": {
         "strategy": "Borea",
-        "as_of": "2026-08-28",
+        "as_of": "2026-08-31",
         "since": "2011-01-01",
-        "total_return_pct": 2168388.799972706,
-        "cagr_pct": 89.26862339102031,
-        "sharpe": 2.047940120498389,
-        "max_dd_pct": -22.31300221107493,
-        "calmar": 4.000744612785112,
+        "total_return_pct": 2168431.771496896,
+        "cagr_pct": 89.20553046382453,
+        "sharpe": 2.0476795364832427,
+        "max_dd_pct": -22.313028917628618,
+        "calmar": 3.997912197090681,
         "benchmark": {
           "name": "SPY",
-          "total_return_pct": 695.7769942081379,
-          "cagr_pct": 14.172153027103086,
-          "sharpe": 0.8653621070696471,
-          "max_dd_pct": -33.717275860137704
+          "total_return_pct": 692.9842376725242,
+          "cagr_pct": 14.138585067841491,
+          "sharpe": 0.8639167134771014,
+          "max_dd_pct": -33.71727424890645
         },
         "yearly": {
           "2011": {
-            "strategy_pct": 65.52372717236716,
-            "benchmark_pct": 0.8523726708544066,
-            "max_dd_pct": -19.798036883717216
+            "strategy_pct": 65.52353911797333,
+            "benchmark_pct": 0.8524199523621601,
+            "max_dd_pct": -19.79802410451567
           },
           "2012": {
-            "strategy_pct": 52.144108472292274,
-            "benchmark_pct": 15.990372094253512,
-            "max_dd_pct": -17.928907115467265
+            "strategy_pct": 52.14422405418446,
+            "benchmark_pct": 15.990300737695161,
+            "max_dd_pct": -17.92890711546727
           },
           "2013": {
-            "strategy_pct": 30.11230744552469,
-            "benchmark_pct": 32.3077765814036,
-            "max_dd_pct": -8.280753447510023
+            "strategy_pct": 30.11217603484162,
+            "benchmark_pct": 32.30777201485293,
+            "max_dd_pct": -8.280747278424222
           },
           "2014": {
-            "strategy_pct": 101.63813043480636,
-            "benchmark_pct": 13.463749948120185,
-            "max_dd_pct": -6.793316641347899
+            "strategy_pct": 101.63787473488912,
+            "benchmark_pct": 13.463792111125228,
+            "max_dd_pct": -6.793384000192218
           },
           "2015": {
-            "strategy_pct": 79.54569035510359,
-            "benchmark_pct": 1.2343286794772368,
-            "max_dd_pct": -14.859707117929513
+            "strategy_pct": 79.54569447676792,
+            "benchmark_pct": 1.2342834093882926,
+            "max_dd_pct": -14.859714074590851
           },
           "2016": {
-            "strategy_pct": 72.16496802644956,
-            "benchmark_pct": 11.997900559608098,
-            "max_dd_pct": -10.52078033744691
+            "strategy_pct": 72.1647956236023,
+            "benchmark_pct": 11.997876056289902,
+            "max_dd_pct": -10.520832601089412
           },
           "2017": {
-            "strategy_pct": 110.76010770765694,
-            "benchmark_pct": 21.705365952956335,
-            "max_dd_pct": -8.670238675109596
+            "strategy_pct": 110.7599892406732,
+            "benchmark_pct": 21.705430043485908,
+            "max_dd_pct": -8.6702386751096
           },
           "2018": {
-            "strategy_pct": 56.278446985730945,
-            "benchmark_pct": -4.5689843996938535,
-            "max_dd_pct": -19.956328501081448
+            "strategy_pct": 56.27854213821748,
+            "benchmark_pct": -4.569009857029793,
+            "max_dd_pct": -19.95629830881906
           },
           "2019": {
-            "strategy_pct": 147.67491217973102,
-            "benchmark_pct": 31.223888990694505,
-            "max_dd_pct": -6.868961382128069
+            "strategy_pct": 147.67528917894913,
+            "benchmark_pct": 31.223920552564888,
+            "max_dd_pct": -6.868957823970715
           },
           "2020": {
-            "strategy_pct": 481.82386200336566,
-            "benchmark_pct": 18.33158909041852,
-            "max_dd_pct": -15.742488301408592
+            "strategy_pct": 481.82378927091474,
+            "benchmark_pct": 18.331607987574028,
+            "max_dd_pct": -15.742504737040571
           },
           "2021": {
-            "strategy_pct": 105.10169242525795,
-            "benchmark_pct": 28.728751906232254,
-            "max_dd_pct": -9.95121840235832
+            "strategy_pct": 105.10167106957002,
+            "benchmark_pct": 28.728735539428296,
+            "max_dd_pct": -9.951218925929627
           },
           "2022": {
-            "strategy_pct": 40.03171951147768,
-            "benchmark_pct": -18.175343291189417,
-            "max_dd_pct": -20.552290028110136
+            "strategy_pct": 40.031673886076206,
+            "benchmark_pct": -18.175374952608557,
+            "max_dd_pct": -20.552296196407248
           },
           "2023": {
-            "strategy_pct": 50.3752580373896,
-            "benchmark_pct": 26.175767301142127,
-            "max_dd_pct": -14.010962029552124
+            "strategy_pct": 50.37512725275979,
+            "benchmark_pct": 26.175807237039983,
+            "max_dd_pct": -14.011001304014636
           },
           "2024": {
-            "strategy_pct": 68.59402021033836,
-            "benchmark_pct": 24.886476304115245,
-            "max_dd_pct": -14.194708935384806
+            "strategy_pct": 68.59392655584575,
+            "benchmark_pct": 24.88645481531002,
+            "max_dd_pct": -14.194718687404551
           },
           "2025": {
-            "strategy_pct": 142.05297623994215,
-            "benchmark_pct": 17.71905551191466,
-            "max_dd_pct": -11.772556115442654
+            "strategy_pct": 142.05300308243727,
+            "benchmark_pct": 17.719067981214454,
+            "max_dd_pct": -11.772544989468484
           },
           "2026": {
-            "strategy_pct": 26.924448274427526,
-            "benchmark_pct": 13.42071101344413,
-            "max_dd_pct": -17.57938978384806
+            "strategy_pct": 26.927462697267313,
+            "benchmark_pct": 13.022673200571733,
+            "max_dd_pct": -17.579389783848036
+          }
+        },
+        "range_kpis": {
+          "all": {
+            "from": "2011-01-03",
+            "to": "2026-08-31",
+            "total_return_pct": 2168431.771496896,
+            "cagr_pct": 89.20553046382453,
+            "sharpe": 2.0476795364832427,
+            "max_dd_pct": -22.313028917628618,
+            "calmar": 3.997912197090681,
+            "n_days": 5719,
+            "benchmark": {
+              "total_return_pct": 692.9842376725242,
+              "cagr_pct": 14.138585067841491,
+              "sharpe": 0.8639167134771014,
+              "max_dd_pct": -33.71727424890645
+            }
+          },
+          "ytd": {
+            "from": "2026-01-02",
+            "to": "2026-08-31",
+            "total_return_pct": 26.927462697267313,
+            "cagr_pct": 43.530679230704614,
+            "sharpe": 1.2449380958309235,
+            "max_dd_pct": -17.579389783848036,
+            "calmar": 2.4762338036727902,
+            "n_days": 241,
+            "benchmark": {
+              "total_return_pct": 13.022673200571733,
+              "cagr_pct": 20.385901040207056,
+              "sharpe": 1.4483215731069594,
+              "max_dd_pct": -8.884968175523786
+            }
+          },
+          "1y": {
+            "from": "2025-09-02",
+            "to": "2026-08-31",
+            "total_return_pct": 57.58731826065209,
+            "cagr_pct": 58.03219428555633,
+            "sharpe": 1.6781345587833214,
+            "max_dd_pct": -17.57938978384806,
+            "calmar": 3.301149527890683,
+            "n_days": 363,
+            "benchmark": {
+              "total_return_pct": 20.16815590182064,
+              "cagr_pct": 20.30507797410779,
+              "sharpe": 1.505442907145895,
+              "max_dd_pct": -8.884968175523856
+            }
+          },
+          "3y": {
+            "from": "2023-08-31",
+            "to": "2026-08-31",
+            "total_return_pct": 547.8631864297943,
+            "cagr_pct": 86.39434571345976,
+            "sharpe": 2.084349428958381,
+            "max_dd_pct": -17.579389783848065,
+            "calmar": 4.914524723312003,
+            "n_days": 1096,
+            "benchmark": {
+              "total_return_pct": 76.44322771242162,
+              "cagr_pct": 20.83226439293213,
+              "sharpe": 1.3191114464725626,
+              "max_dd_pct": -18.755234489427313
+            }
+          },
+          "5y": {
+            "from": "2021-08-31",
+            "to": "2026-08-31",
+            "total_return_pct": 1304.1229412826456,
+            "cagr_pct": 69.63382134924203,
+            "sharpe": 1.933806785053881,
+            "max_dd_pct": -22.31302891762861,
+            "calmar": 3.1207695560429807,
+            "n_days": 1826,
+            "benchmark": {
+              "total_return_pct": 81.38347711084425,
+              "cagr_pct": 12.648814491312411,
+              "sharpe": 0.7812798808577455,
+              "max_dd_pct": -24.496404113472078
+            }
+          },
+          "10y": {
+            "from": "2016-08-31",
+            "to": "2026-08-31",
+            "total_return_pct": 117373.32662029858,
+            "cagr_pct": 102.7850609638775,
+            "sharpe": 2.085711240394227,
+            "max_dd_pct": -22.313028917628618,
+            "calmar": 4.606504179388716,
+            "n_days": 3652,
+            "benchmark": {
+              "total_return_pct": 312.8538319477225,
+              "cagr_pct": 15.235970288510782,
+              "sharpe": 0.8816976769390684,
+              "max_dd_pct": -33.71727424890645
+            }
           }
         }
       },
@@ -1615,7 +1813,7 @@ footer {
         },
         {
           "date": "2011-06-30",
-          "strategy": 1.10862,
+          "strategy": 1.10863,
           "benchmark": 1.04841
         },
         {
@@ -1655,7 +1853,7 @@ footer {
         },
         {
           "date": "2012-02-29",
-          "strategy": 1.97785,
+          "strategy": 1.97784,
           "benchmark": 1.1011
         },
         {
@@ -1720,37 +1918,37 @@ footer {
         },
         {
           "date": "2013-03-28",
-          "strategy": 2.73674,
+          "strategy": 2.73673,
           "benchmark": 1.29265
         },
         {
           "date": "2013-04-30",
-          "strategy": 2.82498,
+          "strategy": 2.82497,
           "benchmark": 1.31748
         },
         {
           "date": "2013-05-31",
-          "strategy": 2.85359,
+          "strategy": 2.85358,
           "benchmark": 1.34859
         },
         {
           "date": "2013-06-28",
-          "strategy": 2.72859,
+          "strategy": 2.72858,
           "benchmark": 1.33059
         },
         {
           "date": "2013-07-31",
-          "strategy": 3.17894,
+          "strategy": 3.17893,
           "benchmark": 1.39935
         },
         {
           "date": "2013-08-30",
-          "strategy": 3.15585,
+          "strategy": 3.15584,
           "benchmark": 1.35738
         },
         {
           "date": "2013-09-30",
-          "strategy": 3.30392,
+          "strategy": 3.30391,
           "benchmark": 1.40034
         },
         {
@@ -1765,7 +1963,7 @@ footer {
         },
         {
           "date": "2013-12-31",
-          "strategy": 3.27668,
+          "strategy": 3.27667,
           "benchmark": 1.54772
         },
         {
@@ -1775,7 +1973,7 @@ footer {
         },
         {
           "date": "2014-02-28",
-          "strategy": 3.76322,
+          "strategy": 3.76321,
           "benchmark": 1.56113
         },
         {
@@ -1795,12 +1993,12 @@ footer {
         },
         {
           "date": "2014-06-30",
-          "strategy": 4.35661,
+          "strategy": 4.3566,
           "benchmark": 1.65529
         },
         {
           "date": "2014-07-31",
-          "strategy": 4.42763,
+          "strategy": 4.42762,
           "benchmark": 1.63305
         },
         {
@@ -1810,734 +2008,735 @@ footer {
         },
         {
           "date": "2014-09-30",
-          "strategy": 4.89097,
+          "strategy": 4.89096,
           "benchmark": 1.67407
         },
         {
           "date": "2014-10-31",
-          "strategy": 5.48972,
+          "strategy": 5.48971,
           "benchmark": 1.7135
         },
         {
           "date": "2014-11-28",
-          "strategy": 5.82672,
+          "strategy": 5.82671,
           "benchmark": 1.76057
         },
         {
           "date": "2014-12-31",
-          "strategy": 6.60703,
+          "strategy": 6.60701,
           "benchmark": 1.75611
         },
         {
           "date": "2015-01-30",
-          "strategy": 7.37083,
+          "strategy": 7.37081,
           "benchmark": 1.70407
         },
         {
           "date": "2015-02-27",
-          "strategy": 7.86232,
+          "strategy": 7.8623,
           "benchmark": 1.79985
         },
         {
           "date": "2015-03-31",
-          "strategy": 8.05103,
+          "strategy": 8.05101,
           "benchmark": 1.77158
         },
         {
           "date": "2015-04-30",
-          "strategy": 7.89561,
+          "strategy": 7.89558,
           "benchmark": 1.789
         },
         {
           "date": "2015-05-29",
-          "strategy": 8.80232,
+          "strategy": 8.8023,
           "benchmark": 1.812
         },
         {
           "date": "2015-06-30",
-          "strategy": 8.91756,
+          "strategy": 8.91753,
           "benchmark": 1.7752
         },
         {
           "date": "2015-07-31",
-          "strategy": 9.17678,
+          "strategy": 9.17676,
           "benchmark": 1.8153
         },
         {
           "date": "2015-08-31",
-          "strategy": 9.19337,
+          "strategy": 9.19335,
           "benchmark": 1.70466
         },
         {
           "date": "2015-09-30",
-          "strategy": 10.16675,
+          "strategy": 10.16673,
           "benchmark": 1.66116
         },
         {
           "date": "2015-10-30",
-          "strategy": 11.1367,
+          "strategy": 11.13668,
           "benchmark": 1.80246
         },
         {
           "date": "2015-11-30",
-          "strategy": 11.2103,
+          "strategy": 11.21028,
           "benchmark": 1.80905
         },
         {
           "date": "2015-12-31",
-          "strategy": 11.86264,
+          "strategy": 11.86261,
           "benchmark": 1.77778
         },
         {
           "date": "2016-01-29",
-          "strategy": 12.7169,
+          "strategy": 12.71687,
           "benchmark": 1.68927
         },
         {
           "date": "2016-02-29",
-          "strategy": 13.82733,
+          "strategy": 13.82728,
           "benchmark": 1.68788
         },
         {
           "date": "2016-03-31",
-          "strategy": 15.07598,
+          "strategy": 15.07592,
           "benchmark": 1.80141
         },
         {
           "date": "2016-04-29",
-          "strategy": 14.51628,
+          "strategy": 14.51624,
           "benchmark": 1.80851
         },
         {
           "date": "2016-05-31",
-          "strategy": 15.35599,
+          "strategy": 15.35593,
           "benchmark": 1.83928
         },
         {
           "date": "2016-06-30",
-          "strategy": 15.6891,
+          "strategy": 15.68904,
           "benchmark": 1.84567
         },
         {
           "date": "2016-07-29",
-          "strategy": 16.71382,
+          "strategy": 16.71376,
           "benchmark": 1.91299
         },
         {
           "date": "2016-08-31",
-          "strategy": 18.34306,
+          "strategy": 18.343,
           "benchmark": 1.91528
         },
         {
           "date": "2016-09-30",
-          "strategy": 20.06982,
+          "strategy": 20.06974,
           "benchmark": 1.91539
         },
         {
           "date": "2016-10-31",
-          "strategy": 19.10918,
+          "strategy": 19.1091,
           "benchmark": 1.88218
         },
         {
           "date": "2016-11-30",
-          "strategy": 20.24423,
+          "strategy": 20.24416,
           "benchmark": 1.95152
         },
         {
           "date": "2016-12-30",
-          "strategy": 20.42331,
+          "strategy": 20.42324,
           "benchmark": 1.99108
         },
         {
           "date": "2017-01-31",
-          "strategy": 21.90711,
+          "strategy": 21.90704,
           "benchmark": 2.02671
         },
         {
           "date": "2017-02-28",
-          "strategy": 24.06771,
+          "strategy": 24.06764,
           "benchmark": 2.10634
         },
         {
           "date": "2017-03-31",
-          "strategy": 24.9039,
+          "strategy": 24.90381,
           "benchmark": 2.10897
         },
         {
           "date": "2017-04-28",
-          "strategy": 25.09511,
+          "strategy": 25.09501,
           "benchmark": 2.12991
         },
         {
           "date": "2017-05-31",
-          "strategy": 34.88799,
+          "strategy": 34.88786,
           "benchmark": 2.15997
         },
         {
           "date": "2017-06-30",
-          "strategy": 35.7284,
-          "benchmark": 2.17374
+          "strategy": 35.72827,
+          "benchmark": 2.17373
         },
         {
           "date": "2017-07-31",
-          "strategy": 37.08896,
+          "strategy": 37.08882,
           "benchmark": 2.21841
         },
         {
           "date": "2017-08-31",
-          "strategy": 38.69351,
+          "strategy": 38.69334,
           "benchmark": 2.22489
         },
         {
           "date": "2017-09-29",
-          "strategy": 40.0906,
+          "strategy": 40.09043,
           "benchmark": 2.26972
         },
         {
           "date": "2017-10-31",
-          "strategy": 41.12974,
+          "strategy": 41.12956,
           "benchmark": 2.3232
         },
         {
           "date": "2017-11-30",
-          "strategy": 42.46051,
+          "strategy": 42.46032,
           "benchmark": 2.39421
         },
         {
           "date": "2017-12-29",
-          "strategy": 43.0442,
+          "strategy": 43.04402,
           "benchmark": 2.42325
         },
         {
           "date": "2018-01-31",
-          "strategy": 52.38021,
+          "strategy": 52.38002,
           "benchmark": 2.55982
         },
         {
           "date": "2018-02-28",
-          "strategy": 56.01287,
+          "strategy": 56.01269,
           "benchmark": 2.46675
         },
         {
           "date": "2018-03-29",
-          "strategy": 58.23118,
+          "strategy": 58.231,
           "benchmark": 2.39913
         },
         {
           "date": "2018-04-30",
-          "strategy": 58.10831,
+          "strategy": 58.10812,
           "benchmark": 2.41153
         },
         {
           "date": "2018-05-31",
-          "strategy": 59.47092,
+          "strategy": 59.47072,
           "benchmark": 2.47015
         },
         {
           "date": "2018-06-29",
-          "strategy": 61.65757,
+          "strategy": 61.65736,
           "benchmark": 2.48436
         },
         {
           "date": "2018-07-31",
-          "strategy": 62.56397,
+          "strategy": 62.56373,
           "benchmark": 2.57639
         },
         {
           "date": "2018-08-31",
-          "strategy": 65.02663,
+          "strategy": 65.02639,
           "benchmark": 2.65863
         },
         {
           "date": "2018-09-28",
-          "strategy": 64.20661,
+          "strategy": 64.20636,
           "benchmark": 2.67444
         },
         {
           "date": "2018-10-31",
-          "strategy": 65.81887,
+          "strategy": 65.81861,
           "benchmark": 2.48962
         },
         {
           "date": "2018-11-30",
-          "strategy": 69.1446,
+          "strategy": 69.14432,
           "benchmark": 2.5358
         },
         {
           "date": "2018-12-31",
-          "strategy": 67.2688,
+          "strategy": 67.26856,
           "benchmark": 2.31253
         },
         {
           "date": "2019-01-31",
-          "strategy": 73.61654,
+          "strategy": 73.61632,
           "benchmark": 2.49768
         },
         {
           "date": "2019-02-28",
-          "strategy": 76.10999,
+          "strategy": 76.10979,
           "benchmark": 2.57865
         },
         {
           "date": "2019-03-29",
-          "strategy": 94.80029,
+          "strategy": 94.80007,
           "benchmark": 2.62532
         },
         {
           "date": "2019-04-30",
-          "strategy": 104.61078,
-          "benchmark": 2.73257
+          "strategy": 104.61053,
+          "benchmark": 2.73258
         },
         {
           "date": "2019-05-31",
-          "strategy": 111.14057,
-          "benchmark": 2.55831
+          "strategy": 111.14038,
+          "benchmark": 2.55832
         },
         {
           "date": "2019-06-28",
-          "strategy": 114.04881,
+          "strategy": 114.04854,
           "benchmark": 2.73634
         },
         {
           "date": "2019-07-31",
-          "strategy": 118.92067,
+          "strategy": 118.92037,
           "benchmark": 2.77771
         },
         {
           "date": "2019-08-30",
-          "strategy": 128.96723,
+          "strategy": 128.967,
           "benchmark": 2.7312
         },
         {
           "date": "2019-09-30",
-          "strategy": 132.6391,
+          "strategy": 132.63882,
           "benchmark": 2.78435
         },
         {
           "date": "2019-10-31",
-          "strategy": 140.2891,
+          "strategy": 140.28885,
           "benchmark": 2.84589
         },
         {
           "date": "2019-11-29",
-          "strategy": 147.89138,
+          "strategy": 147.89107,
           "benchmark": 2.94891
         },
         {
           "date": "2019-12-31",
-          "strategy": 166.60795,
+          "strategy": 166.60761,
           "benchmark": 3.03459
         },
         {
           "date": "2020-01-31",
-          "strategy": 183.25741,
+          "strategy": 183.25705,
           "benchmark": 3.03337
         },
         {
           "date": "2020-02-28",
-          "strategy": 166.49995,
+          "strategy": 166.49952,
           "benchmark": 2.79323
         },
         {
           "date": "2020-03-31",
-          "strategy": 235.91205,
+          "strategy": 235.91152,
           "benchmark": 2.44443
         },
         {
           "date": "2020-04-30",
-          "strategy": 286.61365,
+          "strategy": 286.61311,
           "benchmark": 2.75484
         },
         {
           "date": "2020-05-29",
-          "strategy": 312.84854,
+          "strategy": 312.84793,
           "benchmark": 2.88609
         },
         {
           "date": "2020-06-30",
-          "strategy": 540.66482,
-          "benchmark": 2.93728
+          "strategy": 540.66385,
+          "benchmark": 2.93727
         },
         {
           "date": "2020-07-31",
-          "strategy": 547.44381,
+          "strategy": 547.44284,
           "benchmark": 3.11026
         },
         {
           "date": "2020-08-31",
-          "strategy": 612.68184,
+          "strategy": 612.68089,
           "benchmark": 3.32734
         },
         {
           "date": "2020-09-30",
-          "strategy": 810.80301,
+          "strategy": 810.80153,
           "benchmark": 3.20276
         },
         {
           "date": "2020-10-30",
-          "strategy": 826.27299,
+          "strategy": 826.27152,
           "benchmark": 3.1229
         },
         {
           "date": "2020-11-30",
-          "strategy": 913.28335,
+          "strategy": 913.2815,
           "benchmark": 3.4626
         },
         {
           "date": "2020-12-31",
-          "strategy": 969.36482,
+          "strategy": 969.3627,
           "benchmark": 3.59088
         },
         {
           "date": "2021-01-29",
-          "strategy": 1031.84286,
+          "strategy": 1031.84015,
           "benchmark": 3.55429
         },
         {
           "date": "2021-02-26",
-          "strategy": 1114.80054,
+          "strategy": 1114.79801,
           "benchmark": 3.65312
         },
         {
           "date": "2021-03-31",
-          "strategy": 1236.87892,
+          "strategy": 1236.87591,
           "benchmark": 3.81897
         },
         {
           "date": "2021-04-30",
-          "strategy": 1248.03137,
+          "strategy": 1248.02823,
           "benchmark": 4.02103
         },
         {
           "date": "2021-05-28",
-          "strategy": 1298.99349,
+          "strategy": 1298.99003,
           "benchmark": 4.04743
         },
         {
           "date": "2021-06-30",
-          "strategy": 1340.31809,
+          "strategy": 1340.31454,
           "benchmark": 4.13821
         },
         {
           "date": "2021-07-30",
-          "strategy": 1547.37906,
+          "strategy": 1547.37549,
           "benchmark": 4.23923
         },
         {
           "date": "2021-08-31",
-          "strategy": 1548.05331,
+          "strategy": 1548.04914,
           "benchmark": 4.36539
         },
         {
           "date": "2021-09-30",
-          "strategy": 1629.08855,
+          "strategy": 1629.08363,
           "benchmark": 4.16194
         },
         {
           "date": "2021-10-29",
-          "strategy": 1741.84123,
-          "benchmark": 4.45396
+          "strategy": 1741.83626,
+          "benchmark": 4.45395
         },
         {
           "date": "2021-11-30",
-          "strategy": 1953.3842,
+          "strategy": 1953.37899,
           "benchmark": 4.41817
         },
         {
           "date": "2021-12-31",
-          "strategy": 1988.18365,
+          "strategy": 1988.17909,
           "benchmark": 4.6225
         },
         {
           "date": "2022-01-31",
-          "strategy": 1699.15958,
+          "strategy": 1699.15517,
           "benchmark": 4.3787
         },
         {
           "date": "2022-02-28",
-          "strategy": 1699.81641,
-          "benchmark": 4.24945
+          "strategy": 1699.81199,
+          "benchmark": 4.24946
         },
         {
           "date": "2022-03-31",
-          "strategy": 1754.17969,
+          "strategy": 1754.17578,
           "benchmark": 4.40919
         },
         {
           "date": "2022-04-29",
-          "strategy": 1773.86631,
+          "strategy": 1773.86224,
           "benchmark": 4.0222
         },
         {
           "date": "2022-05-31",
-          "strategy": 1750.70362,
+          "strategy": 1750.6996,
           "benchmark": 4.03128
         },
         {
           "date": "2022-06-30",
-          "strategy": 2091.45161,
+          "strategy": 2091.44662,
           "benchmark": 3.69886
         },
         {
           "date": "2022-07-29",
-          "strategy": 2136.68866,
+          "strategy": 2136.68434,
           "benchmark": 4.03948
         },
         {
           "date": "2022-08-31",
-          "strategy": 2198.62165,
+          "strategy": 2198.6172,
           "benchmark": 3.87466
         },
         {
           "date": "2022-09-30",
-          "strategy": 2414.6844,
-          "benchmark": 3.51647
+          "strategy": 2414.67957,
+          "benchmark": 3.51646
         },
         {
           "date": "2022-10-31",
-          "strategy": 2724.26478,
+          "strategy": 2724.25855,
           "benchmark": 3.80227
         },
         {
           "date": "2022-11-30",
-          "strategy": 2779.42239,
+          "strategy": 2779.41642,
           "benchmark": 4.01364
         },
         {
           "date": "2022-12-30",
-          "strategy": 2784.08775,
+          "strategy": 2784.08046,
           "benchmark": 3.78234
         },
         {
           "date": "2023-01-31",
-          "strategy": 3015.42134,
+          "strategy": 3015.41238,
           "benchmark": 4.0202
         },
         {
           "date": "2023-02-28",
-          "strategy": 2947.90443,
-          "benchmark": 3.91913
+          "strategy": 2947.89629,
+          "benchmark": 3.91912
         },
         {
           "date": "2023-03-31",
-          "strategy": 3209.4561,
+          "strategy": 3209.44792,
           "benchmark": 4.06444
         },
         {
           "date": "2023-04-28",
-          "strategy": 3109.39118,
+          "strategy": 3109.38244,
           "benchmark": 4.12937
         },
         {
           "date": "2023-05-31",
-          "strategy": 3174.52601,
+          "strategy": 3174.51639,
           "benchmark": 4.14843
         },
         {
           "date": "2023-06-30",
-          "strategy": 3325.25463,
+          "strategy": 3325.24566,
           "benchmark": 4.41725
         },
         {
           "date": "2023-07-31",
-          "strategy": 3398.9325,
+          "strategy": 3398.92381,
           "benchmark": 4.56184
         },
         {
           "date": "2023-08-31",
-          "strategy": 3356.30914,
+          "strategy": 3356.30048,
           "benchmark": 4.4877
         },
         {
           "date": "2023-09-29",
-          "strategy": 3126.91163,
+          "strategy": 3126.90269,
           "benchmark": 4.27483
         },
         {
           "date": "2023-10-31",
-          "strategy": 3138.77655,
+          "strategy": 3138.76664,
           "benchmark": 4.18203
         },
         {
           "date": "2023-11-30",
-          "strategy": 3552.33532,
+          "strategy": 3552.32305,
           "benchmark": 4.56403
         },
         {
           "date": "2023-12-29",
-          "strategy": 4186.57914,
+          "strategy": 4186.56454,
           "benchmark": 4.7724
         },
         {
           "date": "2024-01-31",
-          "strategy": 4252.63654,
+          "strategy": 4252.62099,
           "benchmark": 4.84841
         },
         {
           "date": "2024-02-29",
-          "strategy": 4284.09686,
+          "strategy": 4284.08088,
           "benchmark": 5.10143
         },
         {
           "date": "2024-03-28",
-          "strategy": 4300.08869,
+          "strategy": 4300.07313,
           "benchmark": 5.26826
         },
         {
           "date": "2024-04-30",
-          "strategy": 4127.38222,
+          "strategy": 4127.36676,
           "benchmark": 5.05584
         },
         {
           "date": "2024-05-31",
-          "strategy": 4508.16425,
+          "strategy": 4508.14688,
           "benchmark": 5.31157
         },
         {
           "date": "2024-06-28",
-          "strategy": 5210.50011,
+          "strategy": 5210.48079,
           "benchmark": 5.49896
         },
         {
           "date": "2024-07-31",
-          "strategy": 5612.26131,
+          "strategy": 5612.24039,
           "benchmark": 5.56555
         },
         {
           "date": "2024-08-30",
-          "strategy": 6320.67507,
+          "strategy": 6320.6523,
           "benchmark": 5.69559
         },
         {
           "date": "2024-09-30",
-          "strategy": 6769.12838,
+          "strategy": 6769.10405,
           "benchmark": 5.81522
         },
         {
           "date": "2024-10-31",
-          "strategy": 6951.86607,
+          "strategy": 6951.84001,
           "benchmark": 5.76333
         },
         {
           "date": "2024-11-29",
-          "strategy": 7373.80355,
+          "strategy": 7373.77508,
           "benchmark": 6.10702
         },
         {
           "date": "2024-12-31",
-          "strategy": 7058.32208,
+          "strategy": 7058.29354,
           "benchmark": 5.96008
         },
         {
           "date": "2025-01-31",
-          "strategy": 7057.89262,
+          "strategy": 7057.86375,
           "benchmark": 6.12015
         },
         {
           "date": "2025-02-28",
-          "strategy": 7333.76779,
+          "strategy": 7333.73496,
           "benchmark": 6.04245
         },
         {
           "date": "2025-03-31",
-          "strategy": 7719.96925,
+          "strategy": 7719.93713,
           "benchmark": 5.70577
         },
         {
           "date": "2025-04-30",
-          "strategy": 10804.78199,
+          "strategy": 10804.74029,
           "benchmark": 5.6563
         },
         {
           "date": "2025-05-30",
-          "strategy": 11855.31543,
+          "strategy": 11855.26791,
           "benchmark": 6.01177
         },
         {
           "date": "2025-06-30",
-          "strategy": 13158.27111,
-          "benchmark": 6.3207
+          "strategy": 13158.21804,
+          "benchmark": 6.32069
         },
         {
           "date": "2025-07-31",
-          "strategy": 13640.82074,
+          "strategy": 13640.76534,
           "benchmark": 6.46627
         },
         {
           "date": "2025-08-29",
-          "strategy": 13760.88062,
+          "strategy": 13760.82667,
           "benchmark": 6.59895
         },
         {
           "date": "2025-09-30",
-          "strategy": 15203.45877,
+          "strategy": 15203.39659,
           "benchmark": 6.83401
         },
         {
           "date": "2025-10-31",
-          "strategy": 16227.31371,
+          "strategy": 16227.24825,
           "benchmark": 6.99692
         },
         {
           "date": "2025-11-28",
-          "strategy": 17101.42296,
+          "strategy": 17101.35572,
           "benchmark": 7.01056
         },
         {
           "date": "2025-12-31",
-          "strategy": 17084.87868,
+          "strategy": 17084.81148,
           "benchmark": 7.01615
         },
         {
           "date": "2026-01-30",
-          "strategy": 19853.45529,
+          "strategy": 19853.37719,
           "benchmark": 7.11955
         },
         {
           "date": "2026-02-27",
-          "strategy": 19924.34497,
+          "strategy": 19924.26828,
           "benchmark": 7.05803
         },
         {
           "date": "2026-03-31",
-          "strategy": 19929.53729,
-          "benchmark": 6.70951
+          "strategy": 19929.46058,
+          "benchmark": 6.7095
         },
         {
           "date": "2026-04-30",
-          "strategy": 23478.90028,
+          "strategy": 23478.80991,
           "benchmark": 7.41436
         },
         {
           "date": "2026-05-29",
-          "strategy": 24134.79746,
+          "strategy": 24134.70457,
           "benchmark": 7.80454
         },
         {
           "date": "2026-06-30",
-          "strategy": 25328.07114,
+          "strategy": 25327.97366,
           "benchmark": 7.72421
         },
         {
           "date": "2026-07-31",
-          "strategy": 23059.46838,
+          "strategy": 23059.37963,
           "benchmark": 7.7269
         },
         {
-          "date": "2026-08-28",
-          "strategy": 21684.888,
-          "benchmark": 7.95777
+          "date": "2026-08-31",
+          "strategy": 21685.31771,
+          "benchmark": 7.92984
         }
       ],
+      "equity_periods_per_year": 12,
       "current": {
-        "as_of": "2026-08-28",
+        "as_of": "2026-08-31",
         "holding": "SMH,VUG",
         "next_signal": [
           "SMH",
           "VUG"
         ],
         "entry_date": "2026-08-28",
-        "return_pct": 0.0
+        "return_pct": 0.0023665273764184036
       },
       "latest_closed": {
         "asset": "SMH,IWM",
@@ -2612,6 +2811,7 @@ footer {
 </div>
 
 <div class="kpi-grid" id="kpi-grid"></div>
+<div class="exec-note" id="kpi-note" style="display:none; margin: 6px 2px 0;"></div>
 
 <section>
   <h2>Equity curve <span class="scale-toggle" id="scale-toggle">linear scale</span></h2>
@@ -2770,7 +2970,7 @@ window.addEventListener("error", function (e) { showFatal(e.message || e.error);
       const m = mean(a);
       return Math.sqrt(a.reduce((x,y) => x + (y-m)*(y-m), 0) / a.length);
     };
-    const sharpe = (a) => { const sd = std(a); return sd === 0 ? null : mean(a)/sd*Math.sqrt(252); };
+    const sharpe = (a) => { const sd = std(a); return sd === 0 ? null : mean(a)/sd*Math.sqrt(DATA.equity_periods_per_year || 12); };
 
     function maxDD(values) {
       let peak = values[0], dd = 0;
@@ -3024,7 +3224,37 @@ window.addEventListener("error", function (e) { showFatal(e.message || e.error);
     const eqSlice     = source === "ytd"
       ? filterEquityWithBaseline(fromIso, toIso)
       : filterEquity(fromIso, toIso);
-    const kpis        = computeKpis(eqSlice);
+
+    // Per i preset (all/ytd/1y/3y/5y/10y) usiamo i KPI precalcolati lato
+    // Python sulla serie GIORNALIERA (DATA.kpis.range_kpis), che non soffrono
+    // della sotto-campionatura mensile della curva pubblicata. computeKpis()
+    // in JS resta usato solo per i range custom (from/to scelti a mano), per
+    // i quali non esiste un preset precalcolato.
+    const rk = source && source !== "custom" && DATA.kpis && DATA.kpis.range_kpis
+      ? DATA.kpis.range_kpis[source]
+      : null;
+    let kpis;
+    const kpiNoteEl = document.getElementById("kpi-note");
+    if (rk) {
+      kpis = {
+        strategy: {
+          total: rk.total_return_pct / 100, cagr: rk.cagr_pct / 100, sharpe: rk.sharpe,
+          maxDD: rk.max_dd_pct / 100, calmar: rk.calmar,
+        },
+        benchmark: {
+          total: rk.benchmark.total_return_pct / 100, cagr: rk.benchmark.cagr_pct / 100, sharpe: rk.benchmark.sharpe,
+          maxDD: rk.benchmark.max_dd_pct / 100,
+          calmar: (rk.benchmark.cagr_pct != null && rk.benchmark.max_dd_pct < 0) ? ((rk.benchmark.cagr_pct / 100) / Math.abs(rk.benchmark.max_dd_pct / 100)) : null,
+        },
+        nDays: rk.n_days,
+      };
+      kpiNoteEl.style.display = "none";
+      kpiNoteEl.textContent = "";
+    } else {
+      kpis = computeKpis(eqSlice);
+      kpiNoteEl.textContent = "Sharpe e max drawdown sono calcolati su una serie campionata a fine mese e sottostimano il vero drawdown intra-mese.";
+      kpiNoteEl.style.display = kpis ? "" : "none";
+    }
     renderKpis(kpis);
     renderChart(eqSlice);
     const yFrom = parseISO(fromIso).getFullYear();
